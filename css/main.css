@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+
+	font-family: 'Roboto Slab', serif !important;
+	font-size: 16px;	
+	background-image: url(../images/back.jpg);
+	background-size: 100% 700px;
+	background-repeat: no-repeat;
+	background-color: #EDEDE4 !important;
+}
+
+
+
+
+
+#headerback{
+	width: 100%;
+	height: 150px;
+
+
+}
+header{
+	width: 100%;
+	height: 680px;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;	
+}
+.header{
+	margin-top: 20px;
+}
+.header img{
+	border-radius: 50%;
+	padding: 0px;
+	margin-top: 150px;
+}
+.header p{
+	padding: 0px 10px;	
+	font-size: 60px;
+	padding-left: 0px;
+	margin-top: 250px;
+	text-shadow: 1px 1px black;
+	line-height: 32px;
+	color: white;
+	font-family: 'Roboto Slab', serif;
+}
+.header div{
+	margin-top: 50px;
+	padding: 0px;
+}
+#menu{
+	border-top: 2px solid #0097DA;
+	background-color: #940A0A;
+	height: 52px;
+	margin-top: 530px;
+
+}
+.indexp{
+	margin-top: 50px !important;
+	font-size: 24px !important;
+
+}
+.indeximg{
+	margin-top: 50px !important;
+}
+
+
+
+
+
+
+/*Main CSS*/
+#particles{height:100%; 
+	margin-left:-80px;
+	}
+
+@media (max-width: 767px) {
+ .navbar-nav > li:after{content: ""!important}
+}
+
+.navbar{
+	background: #940A0A !important;
+	border:0px !important;
+	height: 40px !important;
+}
+.navbar-nav img{
+	width: 50px;
+	margin-top: -15px;
+
+}
+.watch{
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 20px;
+}
+.watch:hover{
+	color: #FFFF00;
+}
+.navbar a{
+	color: white !important;
+	font-size: 16px !important;
+
+	margin-left: 2px;
+}
+.dropdown-menu{
+	background-color: white !important;
+}
+
+.dropdown-menu a{
+	color: #0097DA !important;
+}
+.dropdown{
+	background-color: #0097DA !important;
+}
+.navbar-inverse .navbar-nav > .open > a{
+	background-color: white !important;
+	color: #0097DA !important;
+}
+#particles {
+	z-index: -100000;
+	margin-top: 0px;
+	width: 100%;
+	position: absolute;
+}
+#content{
+	background-color: rgba(255,255,255,1);
+}
+#content .row{
+	min-height: 600px;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+* {
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+
+#section10 {
+	margin-top: 550px;
+
+
+}
+
+#section10 a span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 30px;
+	height: 50px;
+	margin-left: -15px;
+	border: 2px solid #fff;
+	border-radius: 50px;
+	box-sizing: border-box;
+}
+#section10 a span::before {
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	content: '';
+	width: 6px;
+	height: 6px;
+	margin-left: -3px;
+	background-color: #fff;
+	border-radius: 100%;
+	-webkit-animation: sdb10 2s infinite;
+	animation: sdb10 2s infinite;
+	box-sizing: border-box;
+}
+@-webkit-keyframes sdb10 {
+	0% {
+		-webkit-transform: translate(0, 0);
+		opacity: 0;
+	}
+	40% {
+		opacity: 1;
+	}
+	80% {
+		-webkit-transform: translate(0, 20px);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes sdb10 {
+	0% {
+		transform: translate(0, 0);
+		opacity: 0;
+	}
+	40% {
+		opacity: 1;
+	}
+	80% {
+		transform: translate(0, 20px);
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+#content ul{
+	padding-left: 40px !important;
+}
+#logomenu{
+
+	padding: 0px;
+	margin: -10px;
+}
+#logomenu img{
+		width: 40px;
+	border-radius: 50%;
+}
+
+
+#footer{
+	width: 100%;
+	height: 100px;
+	background-color: #940A0A;
+}
+#footer p{
+	text-align: center;
+	margin-top: 42px;
+	color: white;
+}
+.bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #fff; /* White */
+      color: #555555;
+  }
